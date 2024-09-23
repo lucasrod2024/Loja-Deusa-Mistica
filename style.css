@@ -1,0 +1,558 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header1 {
+  height: 250px;
+  width: 100%;
+  background-image: url("./aurora.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid black;
+  display: flex;
+  position: relative;
+}
+.header1 .socials {
+  display: flex;
+  position: absolute;
+  bottom: 40%;
+  left: 15%;
+}
+.header1 .socials .instagram {
+  font-size: 35px;
+  color: black;
+  height: 37px;
+  width: 37px;
+  text-align: center;
+  margin-right: 10px;
+}
+.header1 .socials .instagram a {
+  color: rgb(4, 216, 22);
+}
+.header1 .socials .facebook {
+  font-size: 35px;
+  margin-right: 10px;
+}
+.header1 .socials .facebook a {
+  color: rgb(4, 216, 22);
+}
+.header1 .socials .telegram {
+  font-size: 35px;
+  margin-right: 10px;
+}
+.header1 .socials .telegram a {
+  color: rgb(4, 216, 22);
+}
+.header1 .socials .whatsapp {
+  font-size: 35px;
+  margin-right: 10px;
+}
+.header1 .socials .whatsapp a {
+  color: rgb(4, 216, 22);
+}
+.header1 .logo {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  height: 100%;
+}
+.header1 .logo img {
+  height: 100%;
+  width: 320px;
+  align-items: center;
+}
+.header1 .logo h2 {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 56%;
+  top: 200px;
+  width: 250px;
+  font-size: 25px;
+  color: rgb(4, 4, 45);
+  text-shadow: 0px 1px 1px black;
+}
+.header1 .frase1 {
+  right: 175px;
+  position: absolute;
+  top: 130px;
+  font-size: 22px;
+  font-weight: 850;
+  color: rgb(58, 0, 58);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header2 {
+  width: 100%;
+  height: 33px;
+  background-color: rgba(227, 227, 227, 0.295);
+  display: flex;
+  position: relative;
+  box-shadow: 0px 0px 0px 0.5px gray;
+}
+.header2 .inicio {
+  position: absolute;
+  left: 5%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .inicio a {
+  text-decoration: none;
+  color: hsl(300, 97%, 12%);
+}
+.header2 .inicio .inicio:hover {
+  background-color: rgba(245, 6, 245, 0.332);
+}
+.header2 .inicio2 {
+  position: absolute;
+  left: 5%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .inicio2 a {
+  text-decoration: none;
+  color: rgb(207, 0, 207);
+}
+.header2 .inicio2 i {
+  color: rgb(207, 0, 207);
+}
+.header2 .inicio2 .inicio:hover {
+  background-color: rgba(245, 6, 245, 0.332);
+}
+.header2 .cristais {
+  position: absolute;
+  left: 15%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .cristais a {
+  text-decoration: none;
+  color: hsl(300, 97%, 12%);
+}
+.header2 .cristais2 {
+  position: absolute;
+  left: 15%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .cristais2 a {
+  text-decoration: none;
+  color: rgb(207, 0, 207);
+}
+.header2 .cristais2 i {
+  color: rgb(207, 0, 207);
+}
+.header2 .ervas {
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .ervas a {
+  text-decoration: none;
+  color: hsl(300, 97%, 12%);
+}
+.header2 .ervas2 {
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .ervas2 a {
+  text-decoration: none;
+  color: rgb(207, 0, 207);
+}
+.header2 .ervas2 i {
+  color: rgb(207, 0, 207);
+}
+.header2 .incensos {
+  position: absolute;
+  left: 35%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .incensos a {
+  text-decoration: none;
+  color: hsl(300, 97%, 12%);
+}
+.header2 .incensos2 {
+  position: absolute;
+  left: 35%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .incensos2 a {
+  text-decoration: none;
+  color: rgb(207, 0, 207);
+}
+.header2 .incensos2 i {
+  color: rgb(207, 0, 207);
+}
+.header2 .massagens {
+  position: absolute;
+  left: 45%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .massagens a {
+  text-decoration: none;
+  color: hsl(300, 97%, 12%);
+}
+.header2 .massagens2 {
+  position: absolute;
+  left: 45%;
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .massagens2 a {
+  text-decoration: none;
+  color: rgb(207, 0, 207);
+}
+.header2 .massagens2 i {
+  color: rgb(207, 0, 207);
+}
+.header2 .endereco {
+  position: absolute;
+  right: 25%;
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(0, 95, 8);
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.header2 .endereco a {
+  text-decoration: none;
+  color: rgb(0, 95, 8);
+}
+.header2 .telefone {
+  position: absolute;
+  right: 5%;
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(0, 95, 8);
+  text-shadow: 0px 1px 1px black;
+  font-size: 19px;
+}
+
+.sections {
+  display: flex;
+  height: 200vh;
+  width: 100%;
+  position: relative;
+}
+.sections .leftPillar {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  box-shadow: 0px 0px 0px black;
+}
+.sections .middleSection {
+  height: 180vh;
+  width: 100%;
+  position: absolute;
+}
+.sections .middleSection .crystalImgContainer {
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 45%;
+  width: 75%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 1px rgb(209, 161, 231);
+  margin-top: 15px;
+  background-color: rgba(238, 100, 208, 0.075);
+}
+.sections .middleSection .crystalImgContainer .crystalText1 {
+  position: absolute;
+  left: 30px;
+  height: 30%;
+  width: 20%;
+  top: 35%;
+}
+.sections .middleSection .crystalImgContainer .crystalText1 h4 {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: hsla(300, 97%, 12%, 0.534);
+}
+.sections .middleSection .crystalImgContainer .cristaisImg2 {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 100%;
+  width: 45%;
+  box-shadow: 2px 2px 2px black;
+}
+.sections .middleSection .crystalImgContainer .crystalText2 {
+  position: absolute;
+  right: 30px;
+  height: 30%;
+  width: 20%;
+  top: 35%;
+}
+.sections .middleSection .crystalImgContainer .crystalText2 h4 {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: hsla(300, 97%, 12%, 0.534);
+}
+
+.sections .middleSection .firstImageBox {
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 10px;
+  background-color: rgba(238, 100, 208, 0.075);
+  width: 80%;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(209, 161, 231);
+}
+.sections .middleSection .firstImageBox .img1 {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2%;
+  left: 20%;
+  box-shadow: 3px 3px 3px black;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+}
+.sections .middleSection .firstImageBox .paragraph {
+  position: absolute;
+  height: 135px;
+  width: 500px;
+  top: 40px;
+  right: 200px;
+}
+.sections .middleSection .firstImageBox .paragraph .p1 {
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  font-size: 17px;
+}
+.sections .middleSection .firstImageBox .verMais1 {
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  top: 230px;
+  right: 60px;
+}
+.sections .middleSection .firstImageBox .verMais1 a {
+  text-decoration: underline;
+  font-size: 23px;
+  color: rgb(65, 0, 65);
+  text-align: center;
+  margin: auto;
+}
+.sections .middleSection .secondImageBox {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 300px;
+  background-color: rgba(238, 100, 208, 0.075);
+  width: 80%;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(209, 161, 231);
+}
+.sections .middleSection .secondImageBox .img2 {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2%;
+  left: 20%;
+  box-shadow: 3px 3px 3px black;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+}
+.sections .middleSection .secondImageBox .paragraph2 {
+  position: absolute;
+  height: 135px;
+  width: 500px;
+  top: 40px;
+  right: 200px;
+}
+.sections .middleSection .secondImageBox .paragraph2 .p2 {
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  font-size: 17px;
+}
+.sections .middleSection .secondImageBox .verMais2 {
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  top: 230px;
+  right: 60px;
+}
+.sections .middleSection .secondImageBox .verMais2 a {
+  text-decoration: underline;
+  font-size: 23px;
+  color: rgb(65, 0, 65);
+  text-align: center;
+  margin: auto;
+}
+.sections .middleSection .thirdImageBox {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 581px;
+  margin-top: 10px;
+  background-color: rgba(238, 100, 208, 0.075);
+  width: 80%;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(209, 161, 231);
+}
+.sections .middleSection .thirdImageBox .img3 {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2%;
+  left: 20%;
+  box-shadow: 3px 3px 3px black;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+}
+.sections .middleSection .thirdImageBox .paragraph3 {
+  position: absolute;
+  height: 135px;
+  width: 500px;
+  top: 40px;
+  right: 200px;
+}
+.sections .middleSection .thirdImageBox .paragraph3 .p3 {
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  font-size: 17px;
+}
+.sections .middleSection .thirdImageBox .verMais3 {
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  top: 230px;
+  right: 60px;
+}
+.sections .middleSection .thirdImageBox .verMais3 a {
+  text-decoration: underline;
+  font-size: 23px;
+  color: rgb(65, 0, 65);
+  text-align: center;
+  margin: auto;
+}
+.sections .middleSection .fourthImageBox {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 92px;
+  margin-top: 10px;
+  background-color: rgba(238, 100, 208, 0.075);
+  width: 80%;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(209, 161, 231);
+}
+.sections .middleSection .fourthImageBox .img4 {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2%;
+  left: 20%;
+  box-shadow: 3px 3px 3px black;
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+}
+.sections .middleSection .fourthImageBox .paragraph4 {
+  position: absolute;
+  height: 135px;
+  width: 500px;
+  top: 40px;
+  right: 200px;
+}
+.sections .middleSection .fourthImageBox .paragraph4 .p4 {
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  font-size: 17px;
+}
+.sections .middleSection .fourthImageBox .verMais4 {
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  top: 230px;
+  right: 60px;
+}
+.sections .middleSection .fourthImageBox .verMais4 a {
+  text-decoration: underline;
+  font-size: 23px;
+  color: rgb(65, 0, 65);
+  text-align: center;
+  margin: auto;
+}
+.sections .rightPillar {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.footer1 {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(67, 64, 64);
+  position: relative;
+}
+.footer1 .footer1Message {
+  color: white;
+  font-size: 16px;
+  margin-top: 4px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+
